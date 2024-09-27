@@ -1,0 +1,88 @@
+section {
+    font-family: roboto;
+    padding: 5px 0;
+  }
+  
+  h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 5px solid white;
+    background-color: #4b4a4a;
+  }
+  
+  .servico {
+    display: flex;
+    margin: 20px 0;
+    max-width: 49.9999%;
+    width: 49.99999%;
+    float: left;
+  }
+  
+  .serv {
+    margin-left: 80px;
+  }
+  
+  .servico img {
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  p {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media (max-width: 1441px){
+    .servico img {
+      height: 150px;
+    }
+  
+    p {
+      font-size: 25px;
+    }
+  }
+  
+  @media (max-width: 800px){
+    .serv {
+      margin-left: 40px;
+    }
+  
+    .servico img {
+      height: 120px;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 450px){
+    .serv {
+      margin-left: 0px;
+    }
+  
+    .servico img {
+      height: 100px;
+    }
+  
+    .servico {
+      max-width: 99.9999%;
+      width: 99.99999%;
+      margin: 10px 20px;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+  }

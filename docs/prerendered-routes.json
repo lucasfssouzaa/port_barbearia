@@ -1,0 +1,8 @@
+{
+  "routes": [
+    "/",
+    "/contato",
+    "/servicos",
+    "/unidades"
+  ]
+}

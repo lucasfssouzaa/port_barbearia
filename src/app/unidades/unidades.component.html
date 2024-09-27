@@ -1,0 +1,17 @@
+<section>
+    <h2>Unidades</h2>
+    <h3>Venha conhecer a unidade mais próxima!!</h3>
+    <div *ngFor="let unid of unids" class="unidade">
+        <div class="desc">
+            <p class="nome">{{unid.nome}}</p>
+            <p class="rua">{{unid.rua}}</p>
+            <p class="bairro">{{unid.bairro}}</p>
+            <p class="horario">{{unid.horario}}</p>
+        </div>
+        <div class="map">
+            <iframe [src]="unid.maps" width="450" height="450"></iframe>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    
+</section>

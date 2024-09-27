@@ -1,0 +1,12 @@
+<section>
+    <h2>Serviços</h2>
+    <div *ngFor="let serv of servs" class="servico">
+        <img src="servicos_{{serv.codigo}}.png" class="serv" alt="{{serv.nome}}">
+        <div class="desc">
+            <p>{{serv.nome}}</p>
+            <p class="preco">R$ {{serv.preco}},00</p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</section>
+
