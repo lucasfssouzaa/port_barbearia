@@ -1,6 +1,8 @@
 section {
     font-family: roboto;
     padding: 5px 0;
+    width: 100%;
+    max-width: 100%;;
   }
   
   h2 {
@@ -84,5 +86,12 @@ section {
   
     p {
       font-size: 20px;
+    }
+  }
+
+  @media (max-width: 400px){
+    .servico {
+      margin-left: 0;
+      padding: 0 5px;
     }
   }
